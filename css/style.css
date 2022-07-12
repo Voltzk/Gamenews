@@ -1,0 +1,25 @@
+@font-face{
+	font-family: unifrak; /* declaração de fonte */ 
+	src:  url(../fonts/unifrak/UnifrakturCook-Bold.ttf); /* caminho da fonte declarada */
+}
+
+.logo{ /* classe logo definida no index ao lado do megafone */
+	font-family: unifrak;
+	font-size: 5rem;
+}
+#id{
+	align-items: center;
+}
+.container{
+	margin: auto;
+	width: auto;
+	height: 100%;
+	background-color:#F2AA00;
+	border-radius: 10px;
+}
+.form{
+	float: right;
+}
+.carousel-caption{
+	background-color: rgba(0, 0, 0, 0.7);
+}
