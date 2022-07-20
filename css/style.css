@@ -52,6 +52,29 @@ html, body {
   overflow:hidden;
   position:relative;
 }
+.panel2 {
+  border:solid 4px #000;
+  border-color: black;
+  box-shadow:0 6px 6px 6px #000;
+  display:inline-block;
+  flex:1 1;
+  height:100%;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+}
+.panel3 {
+  background-color:#fff;
+  border:solid 4px #000;
+  border-color: black;
+  box-shadow:0 6px 6px 6px #000;
+  display:inline-block;
+  flex:1 1;
+  height:100%;
+  overflow:hidden;
+  position:relative;
+}
+
 
 .text {
   background-color:#fff;
@@ -170,4 +193,8 @@ html, body {
 .fa-li {
   position: relative;
   left: 0;
+}
+
+.media-body{
+	width: 500px;
 }
