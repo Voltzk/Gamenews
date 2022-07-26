@@ -22,6 +22,7 @@ body {
 }
 .form{
 	float: right;
+  
 }
 .carousel-caption{
 	background-color: rgba(0, 0, 0, 0.7);
@@ -63,18 +64,6 @@ html, body {
   overflow: hidden;
   justify-content: center;
 }
-.panel3 {
-  background-color:#fff;
-  border:solid 4px #000;
-  border-color: black;
-  box-shadow:0 6px 6px 6px #000;
-  display:inline-block;
-  flex:1 1;
-  height:100%;
-  overflow:hidden;
-  position:relative;
-}
-
 
 .text {
   background-color:#fff;
@@ -197,4 +186,13 @@ html, body {
 
 .media-body{
 	width: 500px;
+}
+.nav-item{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    padding: 10px;
+}
+#footer{
+  border-radius: 10px;
 }
